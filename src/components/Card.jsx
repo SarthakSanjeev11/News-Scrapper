@@ -6,7 +6,7 @@ import { setAuthor } from '../redux/fetchSlice';
 
 
 function Card({ data, author,index }) {
-    const Content = data?.description[0] || '';
+    const Content = data?.description?.[0] || '';
 
     const cleanHTMLContent = (html) => {
         const doc = new DOMParser().parseFromString(html, 'text/html');
