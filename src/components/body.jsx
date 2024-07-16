@@ -23,8 +23,8 @@ const Body = ({ author }) => {
   const [feed, setFeed] = useState([]);
   const [error, setError] = useState(null);
   const urls = [
-    "https://timesofindia.indiatimes.com/rssfeeds/-2128672765.cms",
-    "https://www.thehindu.com/news/international/feeder/default.rss",
+    "https://hindi.oneindia.com/rss/feeds/oneindia-hindi-fb.xml",
+    "https://www.prabhasakshi.com/rss/cricket",
   ];
   const fetchRSSFeed = async (url) => {
     try {
