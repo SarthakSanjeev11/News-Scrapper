@@ -3,8 +3,6 @@ import xml2js from "xml2js";
 import Card from "./Card";
 import { useDispatch, useSelector } from "react-redux";
 import { setNewsData } from "../redux/fetchSlice";
-import Fade from "./Fade";
-
 const Body = ({ author }) => {
   const shuffleArray = (array) => {
     let shuffledArray = [...array];
