@@ -5,7 +5,7 @@ const fetchSlice = createSlice({
   initialState: {
     newData: [],
     type: "",
-    url: "https://timesofindia.indiatimes.com/rssfeedstopstories.cms",
+    url: "",
     id: null,
     author: "",
     model: false,
